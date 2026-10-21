@@ -40,3 +40,7 @@ Showing numbers in Bangla or with lakh/crore grouping needs no library:
 ## License
 
 MIT © [Nodibyte](https://www.nodibyte.com). Used in Nodibyte's store, pharmacy and restaurant software.
+
+## Releasing
+
+Bump `version` in `package.json`, push a `v<version>` tag. GitHub Actions publishes to npm with provenance via [trusted publishing](https://docs.npmjs.com/trusted-publishers); no npm token is stored.

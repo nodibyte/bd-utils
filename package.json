@@ -1,6 +1,6 @@
 {
   "name": "@nodibyte/bd-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bangladeshi mobile number validation and Bangla digit parsing. Zero dependencies.",
   "type": "module",
   "main": "index.js",
