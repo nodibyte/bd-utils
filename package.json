@@ -1,0 +1,18 @@
+{
+  "name": "@nodibyte/bd-utils",
+  "version": "0.1.0",
+  "description": "Bangladeshi mobile number validation and Bangla digit parsing. Zero dependencies.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./index.js" } },
+  "files": ["index.js", "index.d.ts"],
+  "scripts": { "test": "node test.js" },
+  "keywords": ["bangladesh", "bangla", "bengali", "mobile", "phone", "validation", "bkash", "digits"],
+  "author": "Nodibyte <hello@nodibyte.com> (https://www.nodibyte.com)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/nodibyte/bd-utils.git" },
+  "homepage": "https://github.com/nodibyte/bd-utils#readme",
+  "bugs": "https://github.com/nodibyte/bd-utils/issues",
+  "sideEffects": false
+}
