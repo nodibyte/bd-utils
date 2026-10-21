@@ -14,9 +14,9 @@ import { normalizeMobile, isMobile, toE164, operator, toAsciiDigits } from '@nod
 normalizeMobile('+880 1712-345678')  // '01712345678'
 normalizeMobile('০১৭১২৩৪৫৬৭৮')       // '01712345678'
 normalizeMobile('01212345678')       // null
-isMobile('01912345678')              // true
-toE164('01812345678')                // '+8801812345678'
-operator('01612345678')              // 'Robi'
+isMobile('01312345678')              // true
+toE164('01712345678')                // '+8801712345678'
+operator('01712345678')              // 'Grameenphone'
 toAsciiDigits('৳১,২৩৪')              // '৳1,234'
 ```
 
